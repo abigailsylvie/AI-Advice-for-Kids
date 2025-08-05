@@ -29,6 +29,10 @@ This project generates personalized advice for kids using Amazon Bedrock. It hel
 }
 ```
 ---
+## Example Output
+![output Lambda](images/sample-advice.png)
+![Advice Screenshot](images/sample-advice.png)
+---
 ## How to Use
 1. Clone the repository
 
@@ -46,5 +50,12 @@ This project generates personalized advice for kids using Amazon Bedrock. It hel
 1. Add a frontend (simple web form) to input age and focus
 
 2. Categorize advice by learning type
+---
+## License
 
-3. Send advice by email or SMS
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for more information.
+
+--
+
+4. Send advice by email or SMS
