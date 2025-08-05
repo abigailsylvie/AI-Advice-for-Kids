@@ -30,8 +30,11 @@ This project generates personalized advice for kids using Amazon Bedrock. It hel
 ```
 ---
 ## Example Output
-![output Lambda](images/sample-advice.png)
-![Advice Screenshot](images/sample-advice.png)
+![output Lambda](images/output.png)
+![Advice store in Amazon S3](images/fileS3.png)
+![data in DynamoDB](images/dynamoOUTput.png)
+![Advice Screenshot](images/advice.png)
+
 ---
 ## How to Use
 1. Clone the repository
