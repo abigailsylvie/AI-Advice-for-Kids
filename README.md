@@ -27,3 +27,24 @@ This project generates personalized advice for kids using Amazon Bedrock. It hel
   "age": 8,
   "focus": "learning to listen to parents and follow instructions"
 }
+```
+---
+## How to Use
+1. Clone the repository
+
+2. Set up an S3 bucket 
+
+3. Create a DynamoDB table  with a partition key 
+
+4. Create a Lambda function and add your code
+
+5. Add the correct IAM role to allow Lambda access to Bedrock, S3, and DynamoDB
+
+6. Test your Lambda function using the sample input JSON
+---
+## Future Improvements
+1. Add a frontend (simple web form) to input age and focus
+
+2. Categorize advice by learning type
+
+3. Send advice by email or SMS
